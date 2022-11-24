@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# Decker
+.decker
+slides/02-numbers/.decker
+slides/02-numbers/public
+slides/eLearning
+slides/example
+
 # Distribution / packaging
 .Python
 build/
