@@ -1,7 +1,7 @@
 resource-pack: exe:tudo
 
 template:
-  css: mario.css
+  css: thomas.css
 
 reveal:
   width: 1280
