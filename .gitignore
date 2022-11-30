@@ -7,11 +7,13 @@ __pycache__/
 *.so
 
 # Decker
-.decker
+decker-0.11
 slides/02-numbers/.decker
-slides/02-numbers/public
+# slides/02-numbers/public
 slides/eLearning
 slides/example
+slides/decker-0.11
+Decker_Example/*
 
 # Distribution / packaging
 .Python
