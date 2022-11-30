@@ -88,14 +88,142 @@ print(-10.999997)
 
 --------------------------------------------------------------------------------
 
-# Rechnen mit Zahlen
+# Rechnen mit Zahlen - I
 
+| Operation | Symbol | Integer | Float |
+| :-------- | :----: | :-----: | :---- |
+| Addition  |  `+`   |   ✅    | ✅    |
+
+
+```
+print(3 + 4)
+print(1.0 + 7.5)
+```
+--------------------------------------------------------------------------------
+
+# Rechnen mit Zahlen - II
+
+| Operation   | Symbol | Integer | Float |
+| :---------- | :----: | :-----: | :---- |
+| Addition    |  `+`   |   ✅    | ✅    |
+| Subtraktion |  `-`   |   ✅    | ✅    |
+
+```
+print(3 - 4)
+print(1.0 - 7.5)
+```
+
+--------------------------------------------------------------------------------
+
+# Rechnen mit Zahlen - III
+
+| Operation   | Symbol | Integer | Float |
+| :---------- | :----: | :-----: | :---- |
+| Addition    |  `+`   |   ✅    | ✅    |
+| Subtraktion |  `-`   |   ✅    | ✅    |
+| Multiplikation      |  `*`   |   ✅    | ✅    |
+
+```
+print(3 * 4)
+print(3.0 * 7.0)
+```
+
+--------------------------------------------------------------------------------
+
+# Rechnen mit Zahlen - IV
+
+| Operation   | Symbol | Integer | Float |
+| :---------- | :----: | :-----: | :---- |
+| Addition    |  `+`   |   ✅    | ✅    |
+| Subtraktion |  `-`   |   ✅    | ✅    |
+| Multiplikation      |  `*`   |   ✅    | ✅    |
+| Division            |  `/`   |  (✅)   | ✅    |
+
+```
+print(12 / 4)
+print(12 / 5)
+print(12.0 / 4.0)
+```
+
+--------------------------------------------------------------------------------
+
+# Rechnen mit Zahlen - V
+
+| Operation   | Symbol | Integer | Float |
+| :---------- | :----: | :-----: | :---- |
+| Addition    |  `+`   |   ✅    | ✅    |
+| Subtraktion |  `-`   |   ✅    | ✅    |
+| Multiplikation      |  `*`   |   ✅    | ✅    |
+| Division            |  `/`   |  (✅)   | ✅    |
+| Division (abrunden) |  `//`  |   ✅    | ✅    |
+
+```
+print(12 // 5)
+print(12.0 // 5.0)
+```
+
+--------------------------------------------------------------------------------
+
+# Rechnen mit Zahlen - VI
+
+| Operation   | Symbol | Integer | Float |
+| :---------- | :----: | :-----: | :---- |
+| Addition    |  `+`   |   ✅    | ✅    |
+| Subtraktion |  `-`   |   ✅    | ✅    |
+| Multiplikation      |  `*`   |   ✅    | ✅    |
+| Division            |  `/`   |  (✅)   | ✅    |
+| Division (abrunden) |  `//`  |   ✅    | ✅    |
+| Division mit Rest   |  `%`   |   ✅    | ❌    |
+
+```
+print(12 % 4)
+print(12 % 5)
+print(12 % 6)
+print(12 % 7)
+```
+
+--------------------------------------------------------------------------------
+
+# Rechnen mit Zahlen
 
 | Operation           | Symbol | Integer | Float |
 | :------------------ | :----: | :-----: | :---- |
-| Addition            |  `+`   |         |       |
-| Subtraktion         |  `-`   |         |       |
-| Multiplikation      |  `*`   |         |       |
-| Division            |  `/`   |         |       |
-| Division (abrunden) |  `//`  |         |       |
-| Division mit Rest   |  `%`   |         |       |
+| Addition            |  `+`   |   ✅    | ✅    |
+| Subtraktion         |  `-`   |   ✅    | ✅    |
+| Multiplikation      |  `*`   |   ✅    | ✅    |
+| Division            |  `/`   |  (✅)   | ✅    |
+| Division (abrunden) |  `//`  |   ✅    | ✅    |
+| Division mit Rest   |  `%`   |   ✅    | ❌    |
+
+--------------------------------------------------------------------------------
+
+# Integer und Float mischen
+
+- wenn `Integer` und `Float` gemischt werden, dann ist das Ergebnis `Float`
+
+```
+print(1 + 2.0)
+print(3.0 + 4)
+print(12 % 6)
+print(12 % 7)
+```
+
+--------------------------------------------------------------------------------
+
+# Strings und Zahlen kombinieren
+
+- `String` und `Integer` bzw. `Float` können mit `+` angehängt werden.
+```
+print("5 + 6 = " + 5 + 6)
+print("7 - 5 = " + 7 - 5)
+print("3 * 5 = " + 3 * 5)
+print("2 / 3 = " + 2 / 3)
+print("9 // 4 = " + 9 // 4)
+print("10 % 6 = " + 10 % 6)
+
+print("1.265 + 3.1449 = "  1.265 + 3.1449 )
+print("4.894 - 8.9577 = "  4.894 - 8.9577 )
+print("7.023 * 9.8748 = "  7.023 * 9.8748 )
+print("8.652 / 4.4413 = "  8.652 / 4.4413 )
+print("21.01 // 6.9523 = " 21.01 // 6.9523)
+```
