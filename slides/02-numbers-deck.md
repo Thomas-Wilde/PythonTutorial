@@ -173,13 +173,32 @@ print(12.0 // 5.0)
 | Multiplikation      |  `*`   |   ✅    | ✅    |
 | Division            |  `/`   |  (✅)   | ✅    |
 | Division (abrunden) |  `//`  |   ✅    | ✅    |
-| Division mit Rest   |  `%`   |   ✅    | ❌    |
+| Division mit Rest   |  `%`   |   ✅    | ✅    |
 
 ```
 print(12 % 4)
 print(12 % 5)
 print(12 % 6)
 print(12 % 7)
+```
+
+--------------------------------------------------------------------------------
+
+# Rechnen mit Zahlen - VI
+
+| Operation   | Symbol | Integer | Float |
+| :---------- | :----: | :-----: | :---- |
+| Addition    |  `+`   |   ✅    | ✅    |
+| Subtraktion |  `-`   |   ✅    | ✅    |
+| Multiplikation      |  `*`   |   ✅    | ✅    |
+| Division            |  `/`   |  (✅)   | ✅    |
+| Division (abrunden) |  `//`  |   ✅    | ✅    |
+| Division mit Rest   |  `%`   |   ✅    | ✅    |
+
+```
+print(10.5 % 1.0)
+print(10.5 % 0.5)
+print(10.5 % 6.0)
 ```
 
 --------------------------------------------------------------------------------
@@ -193,7 +212,7 @@ print(12 % 7)
 | Multiplikation      |  `*`   |   ✅    | ✅    |
 | Division            |  `/`   |  (✅)   | ✅    |
 | Division (abrunden) |  `//`  |   ✅    | ✅    |
-| Division mit Rest   |  `%`   |   ✅    | ❌    |
+| Division mit Rest   |  `%`   |   ✅    | ✅    |
 
 --------------------------------------------------------------------------------
 
