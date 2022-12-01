@@ -30,7 +30,8 @@ jobs:
       - name: List folder
         run: |
           ls ./
-          ls ./pages
+          ls ./slides
+          ls ./slides/public
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
