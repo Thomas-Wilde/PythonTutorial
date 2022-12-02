@@ -530,21 +530,33 @@ print(12 % 7)</code></pre>
 </section>
 <section id="strings-und-zahlen-kombinieren" class="slide level1">
 <h1>Strings und Zahlen kombinieren</h1>
-<ul>
-<li><code>String</code> und <code>Integer</code> bzw. <code>Float</code> können mit <code>+</code> angehängt werden.</li>
-</ul>
-<pre><code>print(&quot;5 + 6 = &quot; + 5 + 6)
-print(&quot;7 - 5 = &quot; + 7 - 5)
-print(&quot;3 * 5 = &quot; + 3 * 5)
-print(&quot;2 / 3 = &quot; + 2 / 3)
-print(&quot;9 // 4 = &quot; + 9 // 4)
-print(&quot;10 % 6 = &quot; + 10 % 6)
+<p>Zwei Schritte sind notwendig:</p>
+<div>
+<ol type="1">
+<li class="fragment">Zahl in einen <code>String</code> umwandeln: <code>str(6.0)</code></li>
+<li class="fragment"><code>String</code> und umgewandelte Zahl mit <code>+</code> verknüpfen <code>"Hier kommt die Zahl" + str(6.0)</code></li>
+</ol>
+</div>
+</section>
+<section id="strings-und-zahlen-kombinieren-1" class="slide level1">
+<h1>Strings und Zahlen kombinieren</h1>
+<p>Zwei Schritte sind notwendig:</p>
+<ol type="1">
+<li>Zahl in einen <code>String</code> umwandeln: <code>str(6.0)</code></li>
+<li><code>String</code> und umgewandelte Zahl mit <code>+</code> verknüpfen <code>"Hier kommt die Zahl" + str(6.0)</code></li>
+</ol>
+<pre><code>print(&quot;5 + 6 = &quot; + str(5 + 6))
+print(&quot;7 - 5 = &quot; + str(7 - 5))
+print(&quot;3 * 5 = &quot; + str(3 * 5))
+print(&quot;2 / 3 = &quot; + str(2 / 3))
+print(&quot;9 // 4 = &quot; + str(9 // 4))
+print(&quot;10 % 6 = &quot; + str(10 % 6))
 
-print(&quot;1.265 + 3.1449 = &quot;  1.265 + 3.1449 )
-print(&quot;4.894 - 8.9577 = &quot;  4.894 - 8.9577 )
-print(&quot;7.023 * 9.8748 = &quot;  7.023 * 9.8748 )
-print(&quot;8.652 / 4.4413 = &quot;  8.652 / 4.4413 )
-print(&quot;21.01 // 6.9523 = &quot; 21.01 // 6.9523)</code></pre>
+print(&quot;1.265 + 3.144 = &quot; + str(1.265 + 3.144))
+print(&quot;4.894 - 2.612 = &quot; + str(4.894 - 2.612))
+print(&quot;7.023 * 9.874 = &quot; + str(7.023 * 9.874))
+print(&quot;8.652 / 4.441 = &quot; + str(8.652 / 4.441))
+print(&quot;21.01 // 6.95 = &quot; + str(21.01 // 6.95))</code></pre>
 </section>
     </div>
   </div>
