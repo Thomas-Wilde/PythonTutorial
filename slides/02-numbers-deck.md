@@ -231,18 +231,35 @@ print(12 % 7)
 
 # Strings und Zahlen kombinieren
 
-- `String` und `Integer` bzw. `Float` können mit `+` angehängt werden.
-```
-print("5 + 6 = " + 5 + 6)
-print("7 - 5 = " + 7 - 5)
-print("3 * 5 = " + 3 * 5)
-print("2 / 3 = " + 2 / 3)
-print("9 // 4 = " + 9 // 4)
-print("10 % 6 = " + 10 % 6)
+Zwei Schritte sind notwendig:
 
-print("1.265 + 3.1449 = "  1.265 + 3.1449 )
-print("4.894 - 8.9577 = "  4.894 - 8.9577 )
-print("7.023 * 9.8748 = "  7.023 * 9.8748 )
-print("8.652 / 4.4413 = "  8.652 / 4.4413 )
-print("21.01 // 6.9523 = " 21.01 // 6.9523)
+::: incremental
+1. Zahl in einen `String` umwandeln: `str(6.0)`
+2. `String` und umgewandelte Zahl mit `+` verknüpfen
+   `"Hier kommt die Zahl" + str(6.0)`
+:::
+
+--------------------------------------------------------------------------------
+
+# Strings und Zahlen kombinieren
+
+Zwei Schritte sind notwendig:
+
+1. Zahl in einen `String` umwandeln: `str(6.0)`
+2. `String` und umgewandelte Zahl mit `+` verknüpfen
+   `"Hier kommt die Zahl" + str(6.0)`
+
+```
+print("5 + 6 = " + str(5 + 6))
+print("7 - 5 = " + str(7 - 5))
+print("3 * 5 = " + str(3 * 5))
+print("2 / 3 = " + str(2 / 3))
+print("9 // 4 = " + str(9 // 4))
+print("10 % 6 = " + str(10 % 6))
+
+print("1.265 + 3.144 = " + str(1.265 + 3.144))
+print("4.894 - 2.612 = " + str(4.894 - 2.612))
+print("7.023 * 9.874 = " + str(7.023 * 9.874))
+print("8.652 / 4.441 = " + str(8.652 / 4.441))
+print("21.01 // 6.95 = " + str(21.01 // 6.95))
 ```

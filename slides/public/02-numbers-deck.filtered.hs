@@ -523,6 +523,15 @@
 ,CodeBlock ("",[],[]) "print(1 + 2.0)\nprint(3.0 + 4)\nprint(12 % 6)\nprint(12 % 7)"
 ,HorizontalRule
 ,Header 1 ("strings-und-zahlen-kombinieren",[],[]) [Str "Strings",Space,Str "und",Space,Str "Zahlen",Space,Str "kombinieren"]
-,BulletList
- [[Plain [Code ("",[],[]) "String",Space,Str "und",Space,Code ("",[],[]) "Integer",Space,Str "bzw.",Space,Code ("",[],[]) "Float",Space,Str "k\246nnen",Space,Str "mit",Space,Code ("",[],[]) "+",Space,Str "angeh\228ngt",Space,Str "werden."]]]
-,CodeBlock ("",[],[]) "print(\"5 + 6 = \" + 5 + 6)\nprint(\"7 - 5 = \" + 7 - 5)\nprint(\"3 * 5 = \" + 3 * 5)\nprint(\"2 / 3 = \" + 2 / 3)\nprint(\"9 // 4 = \" + 9 // 4)\nprint(\"10 % 6 = \" + 10 % 6)\n\nprint(\"1.265 + 3.1449 = \"  1.265 + 3.1449 )\nprint(\"4.894 - 8.9577 = \"  4.894 - 8.9577 )\nprint(\"7.023 * 9.8748 = \"  7.023 * 9.8748 )\nprint(\"8.652 / 4.4413 = \"  8.652 / 4.4413 )\nprint(\"21.01 // 6.9523 = \" 21.01 // 6.9523)"]
+,Para [Str "Zwei",Space,Str "Schritte",Space,Str "sind",Space,Str "notwendig:"]
+,Div ("",["incremental"],[])
+ [OrderedList (1,Decimal,Period)
+  [[Plain [Str "Zahl",Space,Str "in",Space,Str "einen",Space,Code ("",[],[]) "String",Space,Str "umwandeln:",Space,Code ("",[],[]) "str(6.0)"]]
+  ,[Plain [Code ("",[],[]) "String",Space,Str "und",Space,Str "umgewandelte",Space,Str "Zahl",Space,Str "mit",Space,Code ("",[],[]) "+",Space,Str "verkn\252pfen",SoftBreak,Code ("",[],[]) "\"Hier kommt die Zahl\" + str(6.0)"]]]]
+,HorizontalRule
+,Header 1 ("strings-und-zahlen-kombinieren-1",[],[]) [Str "Strings",Space,Str "und",Space,Str "Zahlen",Space,Str "kombinieren"]
+,Para [Str "Zwei",Space,Str "Schritte",Space,Str "sind",Space,Str "notwendig:"]
+,OrderedList (1,Decimal,Period)
+ [[Plain [Str "Zahl",Space,Str "in",Space,Str "einen",Space,Code ("",[],[]) "String",Space,Str "umwandeln:",Space,Code ("",[],[]) "str(6.0)"]]
+ ,[Plain [Code ("",[],[]) "String",Space,Str "und",Space,Str "umgewandelte",Space,Str "Zahl",Space,Str "mit",Space,Code ("",[],[]) "+",Space,Str "verkn\252pfen",SoftBreak,Code ("",[],[]) "\"Hier kommt die Zahl\" + str(6.0)"]]]
+,CodeBlock ("",[],[]) "print(\"5 + 6 = \" + str(5 + 6))\nprint(\"7 - 5 = \" + str(7 - 5))\nprint(\"3 * 5 = \" + str(3 * 5))\nprint(\"2 / 3 = \" + str(2 / 3))\nprint(\"9 // 4 = \" + str(9 // 4))\nprint(\"10 % 6 = \" + str(10 % 6))\n\nprint(\"1.265 + 3.144 = \" + str(1.265 + 3.144))\nprint(\"4.894 - 2.612 = \" + str(4.894 - 2.612))\nprint(\"7.023 * 9.874 = \" + str(7.023 * 9.874))\nprint(\"8.652 / 4.441 = \" + str(8.652 / 4.441))\nprint(\"21.01 // 6.95 = \" + str(21.01 // 6.95))"]
